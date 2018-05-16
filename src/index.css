@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Nova Mono', monospace; */
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(195, 182, 183);
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: 70% 10% 10% 10%;
+    background-color: rgb(92, 91, 91);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    top: auto;
+    width: 100vw;
+    z-index: 500;
+    border-bottom: 1px solid black;
+}
+
+.topnav a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+.topnav a:hover {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+}
+
+.my-name {
+  justify-content: center;
+  float: left;
+}
+
+.name {
+  justify-content: center;
+  margin: auto;
+}
+
+.intro-container {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  background-color: rgb(195, 182, 183);
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-text {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+  text-align:center;
+  margin: auto;
+}
+
+.cerberusimage {
+  opacity: 0.25;
+  text-align:center;
+  margin: auto;
+}
+
+ /* PROJECTS SECTION */
+
+.projects, .about-me {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  border: 2px solid rgb(255,255,255);
+}
+
+.about {
+  font-size: 20px;
+  text-align: center;
+}
+
+.projects-container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-gap: 10px;
+  background-color: rgb(195, 182, 183);
+  color: rgb(0, 0, 0);
+  justify-content: center;
+}
+
+.rubyproject, .javaproject, .javascriptproject, .websiteproject, .whereintheworld {
+  background-color: rgb(195, 182, 183);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.rubyimage, .javaimage, .javascriptimage, .websiteimage, .whereintheworldimage {
+  height: auto;
+  width: 75%;
+  border-radius: 0px 0px 5px 5px;
+  border: 2px solid rgb(247, 255, 223);
+  text-align: center;
+  border-bottom: 40px solid rgb(247, 255, 223);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  outline:none;
+}
+
+.rubyimage:active, .javaimage:active, .javascriptimage:active, .websiteimage:active, .whereintheworldimage:active {
+  box-shadow: 0px 3px 3px 0 rgb(0, 0, 0);
+}
+
+
+
+.websiteimage:hover, .javaimage:hover, .rubyimage:hover, .javascriptimage:hover, .whereintheworldimage:hover {
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+/* FOOTER STUFFS */
+
+.footer {
+  background-color: rgb(92, 91, 91);
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  padding: 1px 10px;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  border-top: 1px solid black;
+}
+
+.contact {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+.links {
+  padding: 5px;
+}
+
+.links:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+/* SCROLL TO TOP BUTTON */
+
+.topbutton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(0, 0, 0); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    border: 1px solid white;
+}
+
+.topbutton:hover {
+    background-color: rgb(92, 91, 91); /* Add a dark-grey background on hover */
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
