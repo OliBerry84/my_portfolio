@@ -28,7 +28,7 @@ class Portfolio extends Component{
           <a className = 'name' href='#about-me'>About Me</a>
           <a className = 'name' href='#footer'>Contact</a>
         </div>
-        
+
         <div className = 'intro-container'>
           <p className = 'intro-text'>I am an aspiring front end developer/web designer, pursuing a career in Edinburgh, Scotland after completing a 16 week full stack course with the excellent people at CodeClan</p>
           <img className = 'cerberusimage' src={require('./images/cerberus.png')} alt='cerberusdesigns'/>
@@ -40,7 +40,7 @@ class Portfolio extends Component{
             <input type='image' className = 'rubyimage' src={require('./images/giggity_records.png')} alt='rubyproject' name = 'submit'/>
             <p>A CodeClan Ruby project</p>
             <p>Designing a Record Store management console</p>
-            <p><a href="https://github.com/OliBerry84/RubyProject" target="_blank"><img className = 'links' src={require('./images/github.png')} alt='instagram'/></a>
+            <p><a href="https://github.com/OliBerry84/RubyProject" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
           </p>
         </div>
 
@@ -48,7 +48,7 @@ class Portfolio extends Component{
           <input type='image' className = 'javaimage' src={require('./images/android.png')} alt='androidimage'/>
           <p>A CodeClan Android/Java project</p>
           <p>Create a functioning To-Do list application for android devices</p>
-          <p><a href="https://github.com/OliBerry84/androidToDoListProject" target="_blank"><img className = 'links' src={require('./images/github.png')} alt='instagram'/></a>
+          <p><a href="https://github.com/OliBerry84/androidToDoListProject" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
         </p>
       </div>
 
@@ -56,7 +56,7 @@ class Portfolio extends Component{
         <input type='image' className = 'javascriptimage' src={require('./images/love_letter.png')} alt='loveletterimage'/>
         <p>The CodeClan JavaScript group project</p>
         <p>Based on the card game "LoveLetter", designed and implemented a functional 4 player version of the game</p>
-        <p><a href="https://github.com/OliBerry84/Love_Letter_JS_group_Project" target="_blank"><img className = 'links' src={require('./images/github.png')} alt='instagram'/></a>
+        <p><a href="https://github.com/OliBerry84/Love_Letter_JS_group_Project" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
       </p>
     </div>
 
@@ -64,6 +64,8 @@ class Portfolio extends Component{
       <input type='image' className = 'websiteimage' src={require('./images/portfolio.png')} alt='websiteprojectimage'/>
       <p>My CodeClan individual project</p>
       <p>My individual project to create my own portfolio</p>
+      <p><a href="https://github.com/OliBerry84/my_portfolio" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
+    </p>
     </div>
 
     <div className = 'whereintheworld'>
@@ -71,6 +73,8 @@ class Portfolio extends Component{
       <p>Paired programming lab collaboration</p>
       <p>Using the Google Maps API and displaying data</p>
       <p>Click the image to link to the site</p>
+      <p><a href="https://github.com/OliBerry84/Week12WedsLab" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
+    </p>
     </div>
   </div>
 
@@ -87,13 +91,13 @@ class Portfolio extends Component{
       <p>Edinburgh</p>
       <p>Scotland</p>
       <div>
-        <a href="mailto:oliverberry84@gmail.com?Subject=Enquiry"><img className = 'links' src={require('./images/email.png')} alt='email'/></a>
+        <a href="mailto:oliverberry84@gmail.com?Subject=Enquiry"><img className = 'links' src={require('./images/emailwhite2.png')} alt='email'/></a>
 
-        <a href="https://www.linkedin.com/in/oliver-berry-748a8490/" target="_blank"><img className = 'links' src={require('./images/linkedin.png')} alt='linkedIn'/></a>
+        <a href="https://www.linkedin.com/in/oliver-berry-748a8490/" target="_blank"><img className = 'links' src={require('./images/linkedinwhite.png')} alt='linkedIn'/></a>
 
-        <a href="https://github.com/OliBerry84" target="_blank"><img className = 'links' src={require('./images/github.png')} alt='instagram'/></a>
+        <a href="https://github.com/OliBerry84" target="_blank"><img className = 'links' src={require('./images/githubwhite.png')} alt='github'/></a>
 
-        <a href="https://www.instagram.com/oli.berry/" target="_blank"><img className = 'links' src={require('./images/instagram.png')} alt='instagram'/></a>
+        <a href="https://www.instagram.com/oli.berry/" target="_blank"><img className = 'links' src={require('./images/instawhite.png')} alt='instagram'/></a>
       </div>
       <button onClick={this.topFunction} className="topbutton" id="topbutton" title="Return to the top">Return to Top</button>
     </div>

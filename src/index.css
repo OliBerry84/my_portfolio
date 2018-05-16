@@ -3,7 +3,8 @@ body {
   padding: 0px;
   /* font-family: 'Merriweather', serif; */
   /* font-family: 'Nova Mono', monospace; */
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Ubuntu', sans-serif;
   background-color: rgb(195, 182, 183);
 }
 
@@ -94,11 +95,13 @@ body {
 }
 
 .rubyproject, .javaproject, .javascriptproject, .websiteproject, .whereintheworld {
-  background-color: rgb(195, 182, 183);
+  /* background-color: rgb(195, 182, 183); */
+  background-color: rgb(131, 129, 129);
+
   color: rgb(0, 0, 0);
   border-radius: 10px;
   padding: 20px;
-  font-size: 15px;
+  font-size: 18px;
   border: 1px solid rgb(0, 0, 0);
   text-align: center;
 }
@@ -106,18 +109,18 @@ body {
 .rubyimage, .javaimage, .javascriptimage, .websiteimage, .whereintheworldimage {
   height: auto;
   width: 75%;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 25px 25px;
   border: 2px solid rgb(247, 255, 223);
   text-align: center;
-  border-bottom: 40px solid rgb(247, 255, 223);
+  border-bottom: 40px solid rgb(255, 255, 255);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   cursor: pointer;
   outline:none;
 }
 
-.rubyimage:active, .javaimage:active, .javascriptimage:active, .websiteimage:active, .whereintheworldimage:active {
+/* .rubyimage:active, .javaimage:active, .javascriptimage:active, .websiteimage:active, .whereintheworldimage:active {
   box-shadow: 0px 3px 3px 0 rgb(0, 0, 0);
-}
+} */
 
 
 
@@ -147,11 +150,12 @@ body {
 
 .links {
   padding: 5px;
+  border-radius: 25px;
 }
 
 .links:hover {
     background-color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 /* SCROLL TO TOP BUTTON */
