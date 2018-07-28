@@ -1,16 +1,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  /* font-family: 'Merriweather', serif; */
-  /* font-family: 'Nova Mono', monospace; */
-  /* font-family: 'Playfair Display', serif; */
   font-family: 'Ubuntu', sans-serif;
   background-color: rgb(195, 182, 183);
 }
 
 .topnav {
     display: grid;
-    grid-template-columns: 70% 10% 10% 10%;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(92, 91, 91);
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -26,7 +23,6 @@ body {
     padding: 10px;
     text-decoration: none;
     font-size: 25px;
-    /* font-family: 'Dancing Script', cursive; */
 }
 
 .topnav a:hover {
@@ -36,7 +32,6 @@ body {
 
 .my-name {
   margin: auto;
-  float: left;
   font-size: 25px;
 }
 
@@ -47,7 +42,8 @@ body {
 
 .intro-container {
   display: grid;
-  grid-template-columns: 35% 35%;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-auto-columns: 1fr 1fr;
   background-color: rgb(195, 182, 183);
   color: rgb(0, 0, 0);
   justify-content: center;
@@ -96,7 +92,6 @@ body {
 }
 
 .rubyproject, .javaproject, .javascriptproject, .websiteproject, .whereintheworld {
-  /* background-color: rgb(195, 182, 183); */
   background-color: rgb(131, 129, 129);
 
   color: rgb(0, 0, 0);
