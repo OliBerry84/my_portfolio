@@ -30,11 +30,6 @@ body {
     color: rgb(255,255,255);
 }
 
-.my-name {
-  margin: auto;
-  font-size: 25px;
-}
-
 .name {
   justify-content: center;
   margin: auto;
@@ -42,8 +37,7 @@ body {
 
 .intro-container {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-auto-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   background-color: rgb(195, 182, 183);
   color: rgb(0, 0, 0);
   justify-content: center;
@@ -52,16 +46,18 @@ body {
 }
 
 .intro-text {
+  grid-column: 1;
   color: rgb(0, 0, 0);
   font-size: 40px;
   font-family: 'Permanent Marker', cursive;
+  justify-content: center;
   text-align:center;
   margin: auto;
 }
 
 .cerberusimage {
+  grid-column: 2;
   opacity: 0.25;
-  text-align:center;
   margin: auto;
 }
 
@@ -84,7 +80,7 @@ body {
 .projects-container {
   margin: 40px;
   display: grid;
-  grid-template-columns: 35% 35%;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-gap: 10px;
   background-color: rgb(195, 182, 183);
   color: rgb(0, 0, 0);
@@ -92,8 +88,19 @@ body {
 }
 
 .rubyproject, .javaproject, .javascriptproject, .websiteproject, .whereintheworld {
+  grid-column: 2;
   background-color: rgb(131, 129, 129);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
 
+.javaproject, .websiteproject{
+  grid-column: 3;
+  background-color: rgb(131, 129, 129);
   color: rgb(0, 0, 0);
   border-radius: 10px;
   padding: 20px;
@@ -129,9 +136,11 @@ body {
 /* FOOTER STUFFS */
 
 .footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgb(92, 91, 91);
   overflow: hidden;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 1px 10px;
   font-size: 15px;
   font-family: 'Merriweather', serif;
@@ -139,6 +148,7 @@ body {
 }
 
 .contact {
+  grid-column: 2;
   text-align: center;
   margin: auto;
   font-size: 20px;

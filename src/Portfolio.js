@@ -13,7 +13,6 @@ class Portfolio extends Component{
       <div>
 
         <div className="topnav">
-          {/* <p className = 'my-name'>Oliver Berry</p> */}
           <a className = 'name' href='#projects'>Projects</a>
           <a className = 'name' href='#about-me'>About Me</a>
           <a className = 'name' href='#footer'>Contact</a>
