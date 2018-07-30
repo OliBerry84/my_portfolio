@@ -17,7 +17,7 @@ class Projects extends Component {
                     <div className='rubyproject'>
                         <input type='image' className='rubyimage' src={require('./images/giggity_records.png')} alt='rubyproject' name='submit' />
                         <p>A CodeClan Ruby project</p>
-                        <p>Designing a Record Store management console</p>
+                        <p>Designing a Record Store management console using Ruby, MySQL & Sinatra with HTML & CSS</p>
                         <p><a href="https://github.com/OliBerry84/RubyProject" rel="noopener noreferrer" target="_blank"><img className='links' src={require('./images/githubwhite.png')} alt='github' /></a>
                         </p>
                     </div>
@@ -25,7 +25,7 @@ class Projects extends Component {
                     <div className='javaproject'>
                         <input type='image' className='javaimage' src={require('./images/android.png')} alt='androidimage' />
                         <p>A CodeClan Android/Java project</p>
-                        <p>Create a functioning To-Do list application for android devices</p>
+                        <p>Create a functioning To-Do list application for android devices. I used Android Studio and Java</p>
                         <p><a href="https://github.com/OliBerry84/androidToDoListProject" rel="noopener noreferrer" target="_blank"><img className='links' src={require('./images/githubwhite.png')} alt='github' /></a>
                         </p>
                     </div>
@@ -33,7 +33,7 @@ class Projects extends Component {
                     <div className='javascriptproject'>
                         <input type='image' className='javascriptimage' src={require('./images/love_letter.png')} alt='loveletterimage' />
                         <p>The CodeClan JavaScript group project</p>
-                        <p>Based on the card game "LoveLetter", designed and implemented a functional 4 player version of the game</p>
+                        <p>Based on the card game "LoveLetter", designed and implemented a functional 4 player version of the game. Using JavaScript, HTML & CSS</p>
                         <p><a href="https://github.com/OliBerry84/Love_Letter_JS_group_Project" rel="noopener noreferrer" target="_blank"><img className='links' src={require('./images/githubwhite.png')} alt='github' /></a>
                         </p>
                     </div>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     <div className='websiteproject'>
                         <input type='image' className='websiteimage' src={require('./images/portfolio.png')} alt='websiteprojectimage' />
                         <p>My CodeClan individual project</p>
-                        <p>My individual project to create my own portfolio</p>
+                        <p>My individual project to create my own portfolio. I used React, JavaScript with HTML & CSS</p>
                         <p><a href="https://github.com/OliBerry84/my_portfolio" rel="noopener noreferrer" target="_blank"><img className='links' src={require('./images/githubwhite.png')} alt='github' /></a>
                         </p>
                     </div>
@@ -49,7 +49,7 @@ class Projects extends Component {
                     <div className='whereintheworld'>
                         <a href="https://where-in-the-world.glitch.me/" rel="noopener noreferrer" target="_blank"> <img className='whereintheworldimage' src={require('./images/whereintheworld.png')} alt='whereintheworld' /></a>
                         <p>Paired programming lab collaboration</p>
-                        <p>Using the Google Maps API and displaying data</p>
+                        <p>Using the Google Maps API and displaying data with React & JavaScript</p>
                         <p>Click the image to link to the site</p>
                         <p><a href="https://github.com/OliBerry84/Week12WedsLab" rel="noopener noreferrer" target="_blank"><img className='links' src={require('./images/githubwhite.png')} alt='github' /></a>
                         </p>
